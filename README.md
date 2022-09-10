@@ -28,6 +28,7 @@ Since I don't have an IT background, everything in this repo will be for absolut
 </p>
 </details>
 
+
 <!--
 # SQL Statements
 
@@ -59,11 +60,25 @@ Only records that fulfill a specified condition will be extracted.
 FROM table_name
 WHERE condition;`
   
+### SQL AND, OR and NOT Operators
+The WHERE clause can be combined with AND, OR, and NOT operators.
   
   
-  
+- The AND operator displays a record if all the conditions separated by AND are TRUE.
+`SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...; `
+- The OR operator displays a record if any of the conditions separated by OR is TRUE.
+`SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;`
+- The NOT operator displays a record if the condition(s) is NOT TRUE.
+`SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition; `
   
 </p>
 </details>
 
+https://www.w3schools.com/sql/sql_and_or.asp
 -->
