@@ -13,7 +13,7 @@ FROM Books`
 Result:
 Total of different authors = 777
 
-
+# COUNT
 `SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
 FROM Books
 GROUP BY Publisher
