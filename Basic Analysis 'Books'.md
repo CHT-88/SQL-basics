@@ -1,7 +1,16 @@
+>DISTINCT
+>
 **SELECT COUNT( DISTINCT Publisher) as Publishers_total
 FROM Books**
 
 Result: Publishers_total = 364
+
+**SELECT COUNT( DISTINCT Book_author) as Authors_total
+FROM Books**
+
+Result:
+Total of different authors = 777
+
 
 **SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
 FROM Books
@@ -33,16 +42,11 @@ Total_Book_Publication	Year_of_Publication
 69	2003
 
 
-**SELECT COUNT( DISTINCT Book_author) as Authors_total
-FROM Books**
 
-Result:
-Total of different authors = 777
-
-** SELECT COUNT (Book_author) AS Publications_by_author, Book_author
+**SELECT COUNT (Book_author) AS Publications_by_author, Book_author
 FROM Books
 GROUP BY Book_author
-ORDER BY Publications_by_author DESC**
+ORDER BY Publications_by_author DESC **
 
 Result: Showing Top 5 Authors with most Publications
 Publications_by_author	Book_author
