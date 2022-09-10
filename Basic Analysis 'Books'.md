@@ -4,14 +4,13 @@
 `SELECT COUNT( DISTINCT Publisher) as Publishers_total
 FROM Books`
 
-Result: Publishers_total = 364
+![image](https://user-images.githubusercontent.com/108747030/189496758-ae03cdd3-8a64-4034-beb1-0754e2ef64a9.png)
 
 ## Total number of Authors
 `SELECT COUNT( DISTINCT Book_author) as Authors_total
 FROM Books`
 
-Result:
-Total of different authors = 777
+![image](https://user-images.githubusercontent.com/108747030/189496735-5f14ef5e-1074-46c5-b350-83e9728a6569.png)
 
 # COUNT
 `SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
@@ -19,14 +18,7 @@ FROM Books
 GROUP BY Publisher
 ORDER BY Book_Publication_by_Publisher DESC`
 
-Result: 
-Top 5 Total of Book Publication by Publisher
-Book_Publication_by_Publisher	Publisher
-49	Ballantine Books
-26	Pocket
-26	Perennial
-24	Signet Book
-24	Berkley Publishing Group
+![image](https://user-images.githubusercontent.com/108747030/189496715-0b999748-3500-4951-a322-25c6d75f46eb.png)
 
 
 `SELECT COUNT (Book_title) AS Total_Book_Publication, Year_of_Publication
@@ -34,14 +26,8 @@ FROM Books
 GROUP BY Year_of_Publication
 ORDER BY Total_Book_Publication DESC`
 
-/Result:
-Showing the Top 5 Number of Publication by Year
-Total_Book_Publication	Year_of_Publication
-106	2002
-93	2000
-79	2001
-77	1999
-69	2003
+
+![image](https://user-images.githubusercontent.com/108747030/189496673-2ca63228-6118-4eee-acef-77600687b9de.png)
 
 
 
@@ -50,13 +36,9 @@ FROM Books
 GROUP BY Book_author
 ORDER BY Publications_by_author DESC`
 
-Result: Showing Top 5 Authors with most Publications
-Publications_by_author	Book_author
-10	Jonathan Pearce
-8	John Grisham
-8	James Patterson
-7	Terry Pratchett
-7	Stephen King
+![image](https://user-images.githubusercontent.com/108747030/189496551-265ce874-c4ff-4fc5-84a0-9fb8e076696f.png)
+
+
 
 
 SQLLiteStudio (3.3.3)
