@@ -9,7 +9,8 @@ Since I don't have an IT background, everything in this repo will be for absolut
 <details><summary> Basic Concepts
 </summary>
 <p>
-**SQL (Structured Query Language):** is a domain-specific language used to facilitate retrieving specific information from databases.
+
+**SQL(Structured Query Language):** is a domain-specific language used to facilitate retrieving specific information from databases.
 
 **Database:** Is a container (it can be a file or set of files) to store organized data.
   
@@ -23,10 +24,11 @@ Since I don't have an IT background, everything in this repo will be for absolut
 
 **Primary key:** A column (or set of columns) whose values uniquely identify every row in a table.
 
-
-# SQL Statements
+ 
 </p>
 </details>
+
+# SQL Statements
 
 <details><summary>SELECT</summary>
 <p>
