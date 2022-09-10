@@ -1,21 +1,23 @@
->DISTINCT
->
-**SELECT COUNT( DISTINCT Publisher) as Publishers_total
-FROM Books**
+# DISTINCT
+
+## Total number of Publishers
+`SELECT COUNT( DISTINCT Publisher) as Publishers_total
+FROM Books`
 
 Result: Publishers_total = 364
 
-**SELECT COUNT( DISTINCT Book_author) as Authors_total
-FROM Books**
+## Total number of Authors
+`SELECT COUNT( DISTINCT Book_author) as Authors_total
+FROM Books`
 
 Result:
 Total of different authors = 777
 
 
-**SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
+`SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
 FROM Books
 GROUP BY Publisher
-ORDER BY Book_Publication_by_Publisher DESC**
+ORDER BY Book_Publication_by_Publisher DESC`
 
 Result: 
 Top 5 Total of Book Publication by Publisher
@@ -27,10 +29,10 @@ Book_Publication_by_Publisher	Publisher
 24	Berkley Publishing Group
 
 
-**SELECT COUNT (Book_title) AS Total_Book_Publication, Year_of_Publication
+`SELECT COUNT (Book_title) AS Total_Book_Publication, Year_of_Publication
 FROM Books
 GROUP BY Year_of_Publication
-ORDER BY Total_Book_Publication DESC**
+ORDER BY Total_Book_Publication DESC`
 
 /Result:
 Showing the Top 5 Number of Publication by Year
@@ -43,10 +45,10 @@ Total_Book_Publication	Year_of_Publication
 
 
 
-**SELECT COUNT (Book_author) AS Publications_by_author, Book_author
+`SELECT COUNT (Book_author) AS Publications_by_author, Book_author
 FROM Books
 GROUP BY Book_author
-ORDER BY Publications_by_author DESC **
+ORDER BY Publications_by_author DESC`
 
 Result: Showing Top 5 Authors with most Publications
 Publications_by_author	Book_author
