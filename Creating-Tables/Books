@@ -1,0 +1,20 @@
+/*
+> Books Dataset
+>> Creating a Table inspired on the Books Dataset from Kaggle
+
+Source: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset?resource=download
+CC0 1.0 Universal (CC0 1.0) / Public Domain Dedication
+*/
+
+CREATE TABLE Books
+(ISBN VARCHAR(10) Primary Key,
+Book_Title VARCHAR(500) NOT NULL,
+Book_Author VARCHAR(50) NOT NULL,
+Year_of_Publication INTEGER NOT NULL,
+Publisher VARCHAR(50) NOT NULL,
+
+
+)
+
+INSERT INTO Books (ISBN,	Book_Title)
+VALUES (,'')
