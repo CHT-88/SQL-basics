@@ -28,12 +28,42 @@ Since I don't have an IT background, everything in this repo will be for absolut
 </p>
 </details>
 
+<!--
 # SQL Statements
 
 <details><summary>SELECT</summary>
 <p>
 
+### SELECT
+The SELECT statement is used to select data from a database.
 
+  To retrieve all information in the table:
+  `
+SELECT * FROM table_name; `
+  
+  To retrieve specific information:
+  `SELECT column1, column2, ...
+FROM table_name;`
+  
+### SELECT DISTINCT
+The SELECT DISTINCT statement is used to return only different values, in other words, it will exclude duplicate values.
 
+  `SELECT DISTINCT column1, column2, ...
+FROM table_name;`
+  
+### WHERE Clause
+The WHERE clause is used to filter records. 
+Only records that fulfill a specified condition will be extracted.
+  
+  `SELECT column1, column2, ...
+FROM table_name
+WHERE condition;`
+  
+  
+  
+  
+  
 </p>
 </details>
+
+-->
