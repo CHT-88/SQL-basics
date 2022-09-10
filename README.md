@@ -5,14 +5,33 @@ I will add definitions and very basic topics here to assist me with new concepts
 Since I don't have an IT background, everything in this repo will be for absolute begginers.
 
 
-**SQL** (Structured Query Language) is a domain-specific language used to facilitate retrieving specific information from databases.
 
-**Database:** is a container (it can be a file or set of files) to store organized data.
+<details><summary> Basic Concepts
+</summary>
+<p>
+**SQL (Structured Query Language):** is a domain-specific language used to facilitate retrieving specific information from databases.
 
-**Table:** a structured list of data of a specific type.
+**Database:** Is a container (it can be a file or set of files) to store organized data.
+  
+**RDBMS (Relational Database Management System):** .
 
-**Schema:** information about database and table layout and properties.
+**Table:** A structured list of data of a specific type.
 
-**Datatype:** a type of allowed data. Every table column has an associated datatype that restricts (or allows) specific data in that column.
+**Schema:** Information about database and table layout and properties.
 
-**Primary key:** a column (or set of columns) whose values uniquely identify every row in a table.
+**Datatype:** A type of allowed data. Every table column has an associated datatype that restricts (or allows) specific data in that column.
+
+**Primary key:** A column (or set of columns) whose values uniquely identify every row in a table.
+
+
+# SQL Statements
+</p>
+</details>
+
+<details><summary>SELECT</summary>
+<p>
+
+
+
+</p>
+</details>
