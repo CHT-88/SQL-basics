@@ -59,3 +59,4 @@ Publications_by_author	Book_author
 7	Stephen King
 
 
+SQLLiteStudio (3.3.3)
