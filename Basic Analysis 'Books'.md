@@ -31,7 +31,7 @@ ORDER BY Total_Book_Publication DESC`
 
 ![image](https://user-images.githubusercontent.com/108747030/189496673-2ca63228-6118-4eee-acef-77600687b9de.png)
 
-## Total 5 authors by Publication
+## Number of Publication by Author. Ordered Descendant.
 `SELECT COUNT (Book_author) AS Publications_by_author, Book_author
 FROM Books
 GROUP BY Book_author
