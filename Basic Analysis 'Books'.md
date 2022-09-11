@@ -39,7 +39,9 @@ ORDER BY Publications_by_author DESC`
 
 ![image](https://user-images.githubusercontent.com/108747030/189496551-265ce874-c4ff-4fc5-84a0-9fb8e076696f.png)
 
+# WHERE
 
+# MAX, MIN
 
 
 SQLLiteStudio (3.3.3)
