@@ -12,7 +12,7 @@ FROM Books`
 
 ![image](https://user-images.githubusercontent.com/108747030/189496735-5f14ef5e-1074-46c5-b350-83e9728a6569.png)
 
-# COUNT
+# COUNT, GROUP BY, ORDER BY
 
 ## Book Publication Count by Publisher (showing first 5)
 `SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
@@ -47,6 +47,14 @@ ORDER BY Publications_by_author DESC`
 ## Publisher that most published last Year
 
 ## Publisher that least published last Year
+
+# UPDATE
+
+# TRUNCATE
+
+# DELETE
+
+
 
 
 SQLLiteStudio (3.3.3)
