@@ -42,6 +42,23 @@ ORDER BY Publications_by_author DESC`
 # WHERE
 ## Number of Books Published in the last 5 years
 
+**Total Books Published in the last 5 years**
+
+`SELECT COUNT(Book_title) AS Total_Publication, Year_of_Publication
+FROM Books
+WHERE Year_of_Publication BETWEEN 2000 and 2005`
+
+![image](https://user-images.githubusercontent.com/108747030/189546568-ade9c4a2-03c8-4b32-ad10-a7ab2f4b6820.png)
+
+**Seggregated by Year**
+
+`SELECT COUNT(Book_title) AS Total_Publication, Year_of_Publication
+FROM Books
+WHERE Year_of_Publication BETWEEN 2000 and 2005
+GROUP BY Year_of_Publication`
+
+![image](https://user-images.githubusercontent.com/108747030/189546605-0c53b3b4-6d0a-484a-8d8b-a528a367aac4.png)
+
 
 # MAX, MIN
 ## Publisher that most published last Year
