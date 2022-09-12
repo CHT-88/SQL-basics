@@ -85,8 +85,8 @@ WHERE Year_of_Publication < 1990`
 
 # DROP TABLE
 Removing all the data in the table and the table itself.
+
 `DROP TABLE Books`
 
 
-
-SQLLiteStudio (3.3.3)
+Queries performed on [SQLiteStudio (3.3.3)]
