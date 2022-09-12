@@ -37,7 +37,7 @@ ORDER BY Publications_by_author DESC`
 
 ## Number of Books Published Between 2000 and 2005
 
-**Total Books Published in the last 5 years**
+**Total Books Published**
 
 `SELECT COUNT(Book_title) AS Total_Publication, Year_of_Publication
 FROM Books
