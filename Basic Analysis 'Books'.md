@@ -1,5 +1,3 @@
-# DISTINCT
-
 ## Total number of Publishers
 `SELECT COUNT( DISTINCT Publisher) as Publishers_total
 FROM Books`
@@ -11,8 +9,6 @@ FROM Books`
 FROM Books`
 
 ![image](https://user-images.githubusercontent.com/108747030/189496735-5f14ef5e-1074-46c5-b350-83e9728a6569.png)
-
-# COUNT, GROUP BY, ORDER BY
 
 ## Book Publication Count by Publisher (showing first 5)
 `SELECT COUNT (Book_title) AS Book_Publication_by_Publisher, Publisher
@@ -39,7 +35,6 @@ ORDER BY Publications_by_author DESC`
 
 ![image](https://user-images.githubusercontent.com/108747030/189496551-265ce874-c4ff-4fc5-84a0-9fb8e076696f.png)
 
-# WHERE
 ## Number of Books Published Between 2000 and 2005
 
 **Total Books Published in the last 5 years**
@@ -60,7 +55,6 @@ GROUP BY Year_of_Publication`
 ![image](https://user-images.githubusercontent.com/108747030/189546605-0c53b3b4-6d0a-484a-8d8b-a528a367aac4.png)
 
 
-# MAX
 ## Publisher that Most published Between 2000 and 2005
 
 `SELECT COUNT(Book_title), Year_of_Publication, Publisher
