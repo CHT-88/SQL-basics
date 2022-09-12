@@ -29,6 +29,7 @@ I will add definitions and very basic topics here to assist me with new concepts
 </details>
 
 
+[Under Construction...]
 <!--
 # SQL Statements
 
