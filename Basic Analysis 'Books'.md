@@ -72,10 +72,19 @@ WHERE ISBN = 195153448`
 Updated value:
 ![image](https://user-images.githubusercontent.com/108747030/189623051-06ae3174-d8b6-48cb-9b31-3eae8d160457.png)
 
-# TRUNCATE
+# TRUNCATE TABLE
+Removing data rows from the table.
+
+`TRUNCATE TABLE Books`
+
+# DELETE TABLE
+Removing data rows from the table Published before 1990.
+
+`DELETE FROM Books
+WHERE Year_of_Publication < 1990`
 
 # DROP TABLE
-Remove a table altogether from the database.
+Removing all the data in the table and the table itself.
 `DROP TABLE Books`
 
 
