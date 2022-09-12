@@ -2,13 +2,10 @@
 This is the begginig of my SQL studies.
 I will add definitions and very basic topics here to assist me with new concepts and fix my knowledge for the future.
 
-Since I don't have an IT background, everything in this repo will be for absolute begginers.
-
 
 
 <details><summary> Basic Concepts
-</summary>
-<p>
+</summary><p>
 
 **SQL(Structured Query Language):** is a domain-specific language used to facilitate retrieving specific information from databases.
 
@@ -24,6 +21,9 @@ Since I don't have an IT background, everything in this repo will be for absolut
 
 **Primary key:** A column (or set of columns) whose values uniquely identify every row in a table.
 
+**Data Definition Language (DDL):** is a syntax used to define, modify, and delete databases objects (tables, views, tables).
+
+**Data Manipulation Language(DML):** is a syntax used to modify database data.
  
 </p>
 </details>
