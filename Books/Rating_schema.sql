@@ -5,7 +5,7 @@ Source: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset?resource=dow
 CC0 1.0 Universal (CC0 1.0) / Public Domain Dedication
 */
 
-CREATE TABLE Ratings
+CREATE TABLE Rating
 (User_ID Integer Primary Key NOT NULL,
 ISBN Integer NOT NULL,
 Rating INTEGER NOT NULL,
@@ -50,7 +50,7 @@ VALUES
 (160, 9724119378, 0), 
 (176, 1900850303, 4), 
 (176, 1903019699, 0), 
-(183, 8420639133, 0);
+(183, 8420639133, 0),
 (183, 8476409419, 8), 
 (242, 3150000335, 10), 
 (242, 3257208626, 8), 
