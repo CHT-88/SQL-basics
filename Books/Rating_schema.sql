@@ -6,7 +6,8 @@ CC0 1.0 Universal (CC0 1.0) / Public Domain Dedication
 */
 
 CREATE TABLE Rating
-(User_ID Integer Primary Key NOT NULL,
+(Row_ID, Integer Primary Key AUTOINCREMENT,
+User_ID Integer NOT NULL,
 ISBN Integer NOT NULL,
 Rating INTEGER NOT NULL,
 
