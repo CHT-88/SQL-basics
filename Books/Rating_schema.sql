@@ -13,7 +13,7 @@ Rating INTEGER NOT NULL,
 
 )
 
-INSERT INTO Ratings (User_ID, ISBN, Rating)
+INSERT INTO Rating (User_ID, ISBN, Rating)
 VALUES 
 
 
